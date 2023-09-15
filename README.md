@@ -29,43 +29,32 @@ This repository contains a Python-based analysis and prediction model for diabet
   - Age
   - Outcome (0 = No Diabetes, 1 = Diabetes)
  
-**Data Anomilies :**
 
-Pregnancies:
+**Usage**
 
-Check for negative values: Pregnancies should always be a non-negative integer. Ensure there are no negative values.
-Glucose:
+- 1. Data Analysis: Explore the dataset, handle missing values, and visualize data patterns.
 
-Check for extreme values: Glucose levels that are too high or too low could be anomalies. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values or zeros: Glucose levels of zero may indicate missing data or anomalies.
-BloodPressure:
+- 2. Predictive Modeling: Train the logistic regression model for diabetes prediction. Evaluate the model's performance.
 
-Check for extreme values: Blood pressure should be within a reasonable range. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values or zeros: Blood pressure of zero may indicate missing data or anomalies.
-SkinThickness:
+- 3. Interactive Dashboard: Use the dashboard to input medical measurements and get predictions. Visualize Age vs. BMI and Insulin vs. BloodPressure.
 
-Check for extreme values: Skin thickness values that are too high or too low could be anomalies. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values.
-Insulin:
+**Exploratory Data Analysis (EDA)**
 
-Check for extreme values: Insulin levels that are too high or too low could be anomalies. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values.
-BMI:
+Examine the distribution of variables. Identify patterns and relationships between features. Visualize data to gain insights.
 
-Check for extreme values: BMI values that are too high or too low could be anomalies. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values or zeros: BMI of zero may indicate missing data or anomalies.
-DiabetesPedigreeFunction:
+**Predictive Modeling**
 
-Check for extreme values: Ensure that the values are within a reasonable range. Plot a histogram to visualize the distribution and look for outliers.
-Check for missing values.
-Age:
+Train a logistic regression model to predict diabetes outcomes. Evaluate the model using accuracy, precision, recall, and F1-score.
 
-Check for negative values: Age should always be a non-negative integer. Ensure there are no negative values.
-Check for extreme values: Age values that are too high (unlikely in this context) could be anomalies. Plot a histogram to visualize the distribution and look for outliers.
-Outcome:
+**Dashboard**
 
-Check for values other than 0 and 1: The outcome should ideally be binary, with 0 indicating no diabetes and 1 indicating diabetes. Ensure there are no other values.
+The interactive dashboard allows users to input medical measurements and get predictions. Scatter plots visualize Age vs. BMI and Insulin vs. BloodPressure relationships.
 
+**Results and Conclusions**
+
+The model achieves an accuracy of approximately 75%. The dataset exhibits differences in medical measurements between diabetic and non-diabetic patients. The project provides a screening tool, but medical professionals should be consulted for clinical diagnosis.
+
+Contributing Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 **Installation Libraries**
 

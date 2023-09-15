@@ -1,4 +1,5 @@
-# DiabetesPatientDataAnalysis-PredictionModel
+# Diabetes Patient DataAnalysis- PredictionModel
+                                                           (MeriSkill Internship Project)
 The analysis provides insights into diabetes prediction using certain medical measurements. While the model demonstrates predictive power, it's essential to consider its limitations and consult medical experts for comprehensive diagnosis and treatment decisions.
 
 <table style="width: 100%;">
@@ -12,7 +13,8 @@ The analysis provides insights into diabetes prediction using certain medical me
   </tr>
 </table
 
-## Introduction
+
+**Introduction**
 
 This repository contains a Python-based analysis and prediction model for diabetes diagnosis using a dataset of female Pima Indian patients. The project aims to explore the dataset, build a predictive model, and provide an interactive dashboard for making predictions. The README file provides detailed information on how to use the project and its various components.
 

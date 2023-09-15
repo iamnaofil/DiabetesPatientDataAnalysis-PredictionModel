@@ -1,6 +1,16 @@
 # DiabetesPatientDataAnalysis-PredictionModel
 The analysis provides insights into diabetes prediction using certain medical measurements. While the model demonstrates predictive power, it's essential to consider its limitations and consult medical experts for comprehensive diagnosis and treatment decisions.
 
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%; text-align: center;"><img src="DiabetesPrediction.jpg" alt="Image 1" style="max-width: 100%;"></td>
+    <td style="width: 50%; text-align: center;"><img src="agedistribution.jpg" alt="Image 2" style="max-width: 100%;"></td>
+    <td style="width: 50%; text-align: center;"><img src="multivariate.jpg" alt="Image 2" style="max-width: 100%;"></td>
+  
+    
+    
+  </tr>
+</table
 
 ## Introduction
 
